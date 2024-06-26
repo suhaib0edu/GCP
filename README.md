@@ -22,12 +22,15 @@ sudo apt update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 ```
 
-```
-sudo apt install ./chrome-remote-desktop_current_amd64.deb 
-```
 Google Chrome:
- 
-https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+
+```
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
  
 XFCE Desktop Environment:
  
@@ -46,3 +49,5 @@ sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome
 ```
 sudo systemctl disable lightdm.service
 ```
+
+go to => https://remotedesktop.google.com/headless
